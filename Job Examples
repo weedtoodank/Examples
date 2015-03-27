@@ -10,3 +10,15 @@ TEAM_PIRATE = DarkRP.createJob("Pirate", { -- That's TEAM_PIRATE (Used for like 
         vote = true, -- Do they need to vote? true for yes, false for no.
         hasLicense = true, -- Do they have a license for weapons?
      })
+        DarkRP.createJob("Brian"
+        Brown
+        "models/player/brian.mdl
+        [[ I never improve.]]
+        {"His Nose"},
+        "brian"
+        1
+        0
+        0
+        false
+        false
+        })
