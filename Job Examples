@@ -1,0 +1,12 @@
+TEAM_PIRATE = DarkRP.createJob("Pirate", { -- That's TEAM_PIRATE (Used for like AddCustomDoorgroup or Add to only that group to a door. Also, never use the same TEAM_)
+        color = Color(80, 5, 255, 0), -- Chat / Scoreboard Color
+        model = "models/player/swat.mdl", -- Model; to add multiple use  {"models/../model1.mdl","models/../model2.mld},  NOTE the extra comma after the bracket.
+        description = [[Description.]], --Description for Job.
+        weapons = {"med_kit"}, -- Weapons for a job. Seperate them with a "," eg: "med_kid", "armor_kit" always finish the last one without a ","
+        command = "pirate", --Chat command for job. Don't use the same as another teams.
+        max = 5, -- Maximum amount of players for this job.
+        salary = 200, -- The salary they get paid.
+        admin = 0, -- Requires Admin? 1 for yes, 0 for no.
+        vote = true, -- Do they need to vote? true for yes, false for no.
+        hasLicense = true, -- Do they have a license for weapons?
+     })
