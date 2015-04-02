@@ -1,12 +1,4 @@
 
-
-
-
-
-
-
-
-
 TEAM_FRYCOOK = DarkRP.createJob("Frycook", {
     color = Color(75, 191, 23, 34),
         model = "models/player/Group01/female_04.mdl",
