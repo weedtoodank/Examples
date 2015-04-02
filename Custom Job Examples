@@ -1,17 +1,32 @@
 
-TEAM_FRYCOOK = DarkRP.createJob("Frycook", {
+TEAM_BRIAN = DarkRP.createJob("Brian", {
     color = Color(75, 191, 23, 34),
-        model = "models/player/Group01/female_04.mdl",
-        description = [[You work at Burger King, satisfy the world with your delicious nuggets. Just watch out for Brandon.]],
+        model = "models/player/magnusson.mdl",
+        description = [[You are brian, faggot, brian.]],
         weapons = {},
-        command = "cook",
-        max = 4,
-        salary = 40,
+        command = "brian",
+        max = 1,
+        salary = 1,
         admin = 0,
         vote = false,
         hasLicense = false,
-        category = "Citizens"
+        category = "Citizens",
 })
+
+TEAM_HOBO = DarkRP.createJob("CIS SCUM", {
+    color = Color(75, 191, 23, 34),
+        model = "models/player/corpse1.mdl",
+        description = [[Hobo. You do hobo things.]],
+        weapons = {"stunstick", "weapon_deagle2"},
+        command = "hobo",
+        max = 5,
+        salary = 0,
+        admin = 0,
+        vote = false,
+        hasLicense = false,
+        category = "Citizens",
+})
+
 
 
 
