@@ -1,3 +1,37 @@
+
+
+
+
+
+
+
+
+
+TEAM_FRYCOOK = DarkRP.createJob("Frycook", {
+    color = Color(75, 191, 23, 34),
+        model = "models/player/Group01/female_04.mdl",
+        description = [[You work at Burger King, satisfy the world with your delicious nuggets. Just watch out for Brandon.]],
+        weapons = {},
+        command = "cook",
+        max = 4,
+        salary = 40,
+        admin = 0,
+        vote = false,
+        hasLicense = false,
+        category = "Citizens"
+})
+
+
+
+
+
+
+
+
+
+
+
+
 TEAM_PIRATE = DarkRP.createJob("Pirate", { -- That's TEAM_PIRATE (Used for like AddCustomDoorgroup or Add to only that group to a door. Also, never use the same TEAM_)
         color = Color(80, 5, 255, 0), -- Chat / Scoreboard Color
         model = "models/player/swat.mdl", -- Model; to add multiple use  {"models/../model1.mdl","models/../model2.mld},  NOTE the extra comma after the bracket.
